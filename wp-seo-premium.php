@@ -37,6 +37,16 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+ 
+require 'plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://github.com/Techchaudhary/wordpress-seo-premium',
+	__FILE__,
+	'wordpress-seo-premium'
+);
+
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('stable-branch-name');
 
 use Yoast\WP\SEO\Premium\Addon_Installer;
 
