@@ -46,7 +46,7 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 );
 
 //Set the branch that contains the stable release.
-$myUpdateChecker->setBranch('stable-branch-name');
+$myUpdateChecker->setBranch('main');
 
 use Yoast\WP\SEO\Premium\Addon_Installer;
 
