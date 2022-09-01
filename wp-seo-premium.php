@@ -38,7 +38,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
  
-require 'plugin-update-checker/plugin-update-checker.php';
+require 'plugin-update-checker-master/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'https://github.com/Techchaudhary/wordpress-seo-premium',
 	__FILE__,
